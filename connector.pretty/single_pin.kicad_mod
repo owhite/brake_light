@@ -1,0 +1,20 @@
+(footprint "single_pin" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "solder Pin_ with flat fork, hole diameter 0.7mm, length 6.5mm, width 1.8mm")
+  (tags "solder Pin_ with flat fork")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 1.8) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp b648ac41-e99b-4b44-bb62-2d7e27666e78)
+  )
+  (fp_text value "single_pin" (at 0 -1.8) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 23741efe-d2b5-4e3c-9194-162a2dda2fac)
+  )
+  (pad "1" thru_hole circle (at 0 0) (size 1.4 1.4) (drill 0.7) (layers "*.Cu" "*.Mask") (tstamp a51017a3-63e6-48fe-ae2a-9cc5524a1e45))
+  (model "${KICAD6_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
